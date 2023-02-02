@@ -48,7 +48,30 @@
  
  
  
-# numbers in python
+# operators
+
+# + -> addition
+# - -> subtraction
+# * -> multiplication
+# / -> division
+# % -> remainder / mod
+# // -> floor division
+# ** -> to the power of
  
  
+# # type() function returns the datatype
+
+# print(type(2.334))
  
+#if you find type of two different datatype combinations then the result will be upcasted eg - int + float = float
+
+# # and , or are directly written as it is in python
+
+# print(2>3 and 3>2)
+# print(2>3 or 3>2)
+
+# # precedence is left to right
+
+# print(False or True and True)
+
+# #first letter of these is capital
