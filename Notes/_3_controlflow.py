@@ -33,14 +33,3 @@
 
 # for loop
 
-
-listt = []
-
-for i in range(10):
-    print(i+1)
-    listt.append(i**2)
-
-size = listt.size()
-
-for i in listt:
-    print(i)

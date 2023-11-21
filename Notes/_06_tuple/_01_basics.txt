@@ -1,0 +1,61 @@
+'''
+
+A tuple in Python is an ordered, immutable collection of elements. It is similar to a list, but unlike lists, tuples cannot be modified after they are created. 
+
+
+In Python, you can declare a tuple by enclosing a comma-separated sequence of values in parentheses (). Once you have a tuple, you can access its elements using indexing, slicing, or even unpacking. Here are some examples:
+
+Declaring a Tuple:
+Python
+
+# Creating a tuple with integers
+my_tuple = (1, 2, 3)
+
+# Creating a tuple with mixed data types
+mixed_tuple = ("apple", 3.14, True)
+
+# Creating an empty tuple
+empty_tuple = ()
+
+# Creating a tuple with a single element (remember to add a comma)
+single_element_tuple = (42,)
+
+# You can also create a tuple without parentheses (not recommended for readability)
+another_tuple = 1, 2, 3
+Accessing Tuple Elements:
+1. Indexing:
+You can access individual elements of a tuple using square brackets and zero-based indexing:
+
+python
+Copy code
+my_tuple = (1, 2, 3)
+print(my_tuple[0])  # Access the first element (1)
+print(my_tuple[1])  # Access the second element (2)
+print(my_tuple[2])  # Access the third element (3)
+2. Negative Indexing:
+You can also use negative indexing to access elements from the end of the tuple:
+
+python
+Copy code
+my_tuple = (1, 2, 3)
+print(my_tuple[-1])  # Access the last element (3)
+print(my_tuple[-2])  # Access the second-to-last element (2)
+3. Slicing:
+You can use slicing to access a range of elements in a tuple:
+
+python
+Copy code
+my_tuple = (1, 2, 3, 4, 5)
+subset = my_tuple[1:4]  # Extract elements at index 1, 2, and 3 (2, 3, 4)
+4. Unpacking:
+You can unpack a tuple into variables to access its elements directly:
+
+python
+Copy code
+my_tuple = (10, 20, 30)
+x, y, z = my_tuple
+print(x)  # 10
+print(y)  # 20
+print(z)  # 30
+These are the fundamental ways to declare and access elements in a tuple in Python. Tuples are immutable, meaning their elements cannot be modified once they are defined, but you can create new tuples with modified values if needed.
+'''
